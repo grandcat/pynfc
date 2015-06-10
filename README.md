@@ -12,12 +12,13 @@ The bindings are constructed at runtime using ctypes.
 Please ensure that libnfc is correctly installed in one of the system default
 paths.
 
-To install this library, just run `python setup.py install` in `src/` directory.
+To install this library, just change to `src/` directory and run
+`sudo python setup.py install`.
 
 Documentation
 -------------
-pynfc3 offers basic C bindings for the API of libnfc. There is no proper wrapper
-to facilitate the data exchange with Python right now.
+pynfc3 offers basic ctype bindings for the API of libnfc. There is no proper
+wrapper to facilitate the data exchange with Python right now.
 
 Using this library needs some experience with ctypes. Nevertheless, it is not so
 hard :)
